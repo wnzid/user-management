@@ -1,5 +1,4 @@
 <?php
-// /App/Models/Admin.php
 namespace App\Models;
 
 use App\Core\AbstractUser;
@@ -12,9 +11,6 @@ class Admin extends AbstractUser implements AuthInterface {
     public function userRole() {
         return "Admin";
     }
-
-    // These methods are placeholders because the actual login/logout
-    // logic is handled in AuthService for database integration.
     public function login($email, $password) {
         return true;
     }

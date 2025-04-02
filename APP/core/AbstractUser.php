@@ -1,7 +1,5 @@
 <?php
-// /App/Core/AbstractUser.php
 namespace App\Core;
-
 abstract class AbstractUser {
     protected $name;
     protected $email;
